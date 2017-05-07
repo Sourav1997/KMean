@@ -20,3 +20,5 @@ for i in range (len(x)):
     plt.plot(x[i][0],x[i][1],colors[lables[i]],markersize=10)
 plt.scatter(centroids[:,0],centroids[:,1],marker='x' , s=150 , linewidth=5)
 plt.show()
+
+##output of this file is given  in figure1.png
